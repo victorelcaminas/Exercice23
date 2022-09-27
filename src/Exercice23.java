@@ -4,7 +4,7 @@ public class Exercice23 {
 
     public static void main(String[] args) {
         int i = 0;
-        float grade = 0, sum = 0, medium;
+        float grade = 0, sum = 0, average;
         boolean wasTen = false;
 
         Scanner inputValue;
@@ -22,8 +22,8 @@ public class Exercice23 {
                 }
             }
         }
-        medium = sum / i;
-        System.out.println("Medium grade:" + medium);
+        average = sum / i;
+        System.out.println("Medium grade:" + average);
         System.out.println("Any ten? " + wasTen);
     }
 }
